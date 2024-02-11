@@ -1,0 +1,157 @@
+/* sytle ของ dashboard */
+body {
+  font-family: 'Itim', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: url('https://4kwallpapers.com/images/walls/thumbs_3t/11739.png');
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Itim', sans-serif;
+}
+
+h3 {
+  color: #189cf4;
+  background-color: salmon;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 14px;
+  align-items: center;
+  font-family: 'Itim', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.custom-table a {
+  text-decoration: none;
+  color: #3498db;
+  border-bottom: none !important;
+}
+
+table {
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-collapse: collapse;
+  font-family: 'Itim', sans-serif;
+}
+
+th, td {
+  padding: 10px;
+  min-width: 17ch;
+  border: 1px solid #ddd;
+  text-align: center;
+  opacity: 0.8;
+  max-width: 17ch !important;
+  overflow: hidden;
+  word-wrap: break-word;
+  min-width: 100px;
+  width: 100px;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff; 
+  border-radius: 10;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+p {
+  font-family: 'Itim', sans-serif;
+}
+
+a.button:hover {
+  background-color: #45a049;
+}
+
+.modal-body {
+  font-family: 'Itim', sans-serif;
+}
+
+.modal-body label {
+  display: flex;
+}
+
+.modal-body input {
+  border-radius: 20px;
+  display: block;
+}
+
+.modal-body .dee {
+  padding: 20px;
+}
+
+form button {
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #189cf4;
+  color: #ddd;
+  box-shadow: slategray;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.summary {
+  margin-left: 100px;
+  font-family: 'Itim', sans-serif;
+}
+
+.income-table {
+  margin-left: 150px;
+  flex: 1;
+  text-decoration: none;
+}
+
+.expense-table {
+  margin-left: 100px;
+  flex: 1;
+  text-decoration: none;
+}
+
+.navbar,
+.custom-navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 99, 71, 0.5);
+  z-index: 1000;
+}
+
+.add-transaction-btn {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;
+  z-index: 999;
+}
+
+
+
+
+
+
+
